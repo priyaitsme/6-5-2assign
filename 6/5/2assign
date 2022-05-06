@@ -1,0 +1,19 @@
+A={1:[1650,'lucky','software',30000,'kakinada'],2:[1655,'dinesh','doctor',80000,'vizag'],3:[1765,'uday','police',70000,'agra'],4:[1785,'durgesh','teacher',90000,'kakinada']}
+x=int(input('enter a number:'))
+print(x)
+print('employee number:',A[x][0])
+print('name of the person:',A[x][1])
+print('employee job:',A[x][2])
+print('employee salary:',A[x][3])
+print('city:',A[x][4])
+
+
+
+OUTPUT:
+enter a number:1
+1
+employee number: 1650
+name of the person: lucky
+employee job: software
+employee salary: 30000
+city: kakinada
